@@ -1,3 +1,5 @@
+mod foo;
+
 #[derive(Debug)]
 struct Foo {
     bar: i32,
@@ -12,4 +14,6 @@ fn main() {
 
     println!("This is {}", b.bar);
     println!("This is {a}");
+
+    foo::hey();
 }
